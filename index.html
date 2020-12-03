@@ -7,9 +7,26 @@
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .img-container {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    </style>
 
 </head>
-
+<!------------------------------------------------------------------>
 <body>
     <header>
         <h1 style="background-color:rgb(86, 226, 43);">Du Lịch Việt</h1>
@@ -79,11 +96,23 @@
     <section id="services" class="hideable-section">
         <div>
             <h1>Top 10 địa điểm du lịch</h1>
-            <div>
-                <pre>
-    
+        
+        <div>
     <h1>1.Sapa</h1>
- Nếu có thể dùng những từ ngắn gọn để miêu tả Sapa thì chỉ có thể là tuyệt đẹp, bí ẩn
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="images/sapa1.jpg" alt="Italy" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/sapa2.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/sapa3.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
+ <p>Nếu có thể dùng những từ ngắn gọn để miêu tả Sapa thì chỉ có thể là tuyệt đẹp, bí ẩn
 và trong lành. Giới thiệu một chút về Sapa, Sapa nằm ở phía tây bắc của Tổ quốc, thuộc 
 huyện vùng cao của tỉnh Lào Cai. Là vùng đất được thiên nhiên ưu đãi cho núi rừng 
 hùng vĩ, bí ẩn bởi toàn đồi núi được e nấp trong làn sương trắng mờ. Không khí cực kỳ 
@@ -92,29 +121,49 @@ ngàng như đang lạc vào thiên đường.
 
  Lặng lẽ, khiêm nhường nhưng lại chứa nhiều thử thách, thách thức chúng ta khám phá 
 chính là điểm nổi bật tại Sapa, ở đây bạn còn hiểu thêm nhiều văn hóa của nhiều dân 
-tộc vùng cao, vô cùng đặc sắc, ẩm thực thì có thể nói rất lạ và rất ngon.
+tộc vùng cao, vô cùng đặc sắc, ẩm thực thì có thể nói rất lạ và rất ngon.</p>
 
-                </pre>
-                <img src="images/Sapa.jpg" width="600px"height="300px">
             </div>
             <div>
-                <pre>
     
     <h1>2. Vịnh Hạ Long</h1>
- Vịnh Hạ Long là địa điểm có thể nói là nổi tiếng nhất Việt Nam, bởi nó được công 
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="images/VHL1.jpg" alt="Italy" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/VHL2.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/VHL3.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+    
+ <p>Vịnh Hạ Long là địa điểm có thể nói là nổi tiếng nhất Việt Nam, bởi nó được công 
 nhận là di sản văn hóa thế giới, bỏi nó  là tác phẩm nghệ thuật tạo hình kỳ lạ của 
 tạo hóa, không khỏi khiến du khách thích thú nhưng cũng đầy bối rối. Đến với Hạ Long 
 giúp bạn sẽ cảm nhận được những tác phẩm tạo hình tuyệt mỹ, tài hoa của tạo hoá, 
 của thiên nhiên biến hàng ngàn đảo đá vô tri tĩnh lặng kia trở nên những tác phẩm 
-điêu khắc.
+điêu khắc.</p>
 
-                </pre>
-                <img src="images/VinhHaLong.jpg" width="600px"height="300px">
             </div>
             <div>
-                <pre>
     
     <h1>3. Đà Nẵng - Hội An</h1>
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="images/HA1.jpg" alt="Italy" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/HA2.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="img-container">
+        <img src="images/HA3.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
  Đến khu vực miền trung thì Đà Nẵng-Hội An là địa điểm đến nhiều nhất. Đã Nẵng với 
 tốc độ phát triển nhanh chóng, đến đây bạn có thể nghỉ dưỡng ở những khu resort hiện 
 đại, khách sạn 5 sao tại bờ biển Đà Nẵng đẹp như thơ.
@@ -125,8 +174,6 @@ muốn trở về tuổi thơ, muốn có thể  cảm nhận cuộc sống than
 toàn lý tưởng.
 
 
-                </pre>
-                <img src="images/hoian.jpg" width="600px"height="300px">
             </div>                        
         </div>
     </section>
